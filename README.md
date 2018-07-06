@@ -3,7 +3,7 @@
 ## Для запуска проекта необходимо:
 Добавить себе проект:
 ```sh
-$ git clone https://github.com/georgsby/semalt-test-work.git
+$ git clone https://github.com/georgsby/semalt.test.work.git
 ```
 
 Проверить версию python:
