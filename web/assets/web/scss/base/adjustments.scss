@@ -1,0 +1,31 @@
+body {
+  font-family: $font-family-base;
+  line-height: 1.42;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  color: $color-base;
+  height: 100%;
+}
+
+.bg__main {
+  background: $blue url('../img/green-gobbler.png') top left repeat;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+section {
+  padding-top: rem(80px);
+  min-height: 95vh;
+}
+
+.code__bg{
+  background: #f1f1f1;
+  padding: rem(5px) rem(10px);
+  border-left: 3px solid green;
+  margin: rem(10px) 0;
+}

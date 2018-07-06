@@ -1,0 +1,28 @@
+{% extends 'web/layout.html' %}
+{% load static %}
+
+
+{% block header %}
+  {% include 'web/partials/_header.html' %}
+{% endblock %}
+
+{% block content %}
+  <section class=" task pb-5 bg__main">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card">
+            <div class="card-header">
+              {{ task.title }}
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{ task.description | safe }}</h5>
+              <div class="card-text">{{ task.solve | safe }}</div>
+              <a href="{% url 'index' %}" class="btn btn-info text-white">К списку заданий</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
